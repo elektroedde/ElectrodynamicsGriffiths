@@ -3,5 +3,5 @@
 =
 
 #solution[
-  temp
+  temporary
 ]
