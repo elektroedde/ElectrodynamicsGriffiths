@@ -1,3 +1,3 @@
-#import "../template.typ": solution, bh
+#import "../template.typ": *
 
 =

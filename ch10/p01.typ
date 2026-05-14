@@ -1,4 +1,4 @@
-#import "../template.typ": solution, bh
+#import "../template.typ": *
 
 =
 Show that the differential equations for $V$ and $bold(A)$

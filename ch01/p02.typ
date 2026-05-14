@@ -1,4 +1,4 @@
-#import "../template.typ": solution, bh
+#import "../template.typ": *
 
 =
 Is the cross product associative?

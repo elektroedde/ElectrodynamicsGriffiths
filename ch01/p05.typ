@@ -1,4 +1,4 @@
-#import "../template.typ": solution, bh
+#import "../template.typ": *
 
 =
 Prove the $bold("BAC-CAB")$ rule,

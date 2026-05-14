@@ -1,4 +1,4 @@
-#import "../template.typ": solution, bh
+#import "../template.typ": *
 
 =
 Check that the retarded potentials of an oscillating dipole
