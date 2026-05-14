@@ -86,7 +86,7 @@ def build_readme(repo_root: Path) -> str:
     return f"""\
 # Electrodynamics – Griffiths
 
-Solutions to problems from *Introduction to Electrodynamics* (4th Edition) by David J. Griffiths.
+Solutions to problems from *Introduction to Electrodynamics* (4th Edition) by David J. Griffiths. Each chapters solution is fully contained within the pdf-files for that chapter.
 
 ---
 
