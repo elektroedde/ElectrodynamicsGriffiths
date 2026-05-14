@@ -1,0 +1,5 @@
+# Root-level Typst entry points and template (compiled locally)
+/*.typ
+
+# Claude Code worktree folder
+.claude/
