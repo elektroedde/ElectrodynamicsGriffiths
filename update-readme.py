@@ -114,6 +114,48 @@ Solutions to problems from *Introduction to Electrodynamics* (4th Edition) by Da
 """
 
 
+def find_typst() -> list[str]:
+    """Return a command prefix for typst compile, preferring the standalone CLI."""
+    for candidate in [["typst"], ["tinymist"]]:
+        try:
+            subprocess.run(candidate + ["--version"], capture_output=True, check=True)
+            return candidate
+        except (FileNotFoundError, subprocess.CalledProcessError):
+            continue
+    # Try the tinymist bundled with the VS Code extension as a last resort.
+    import glob as _glob
+    pattern = str(Path.home() / ".vscode/extensions/myriad-dreamin.tinymist-*/out/tinymist")
+    matches = sorted(_glob.glob(pattern))
+    if matches:
+        return [matches[-1]]
+    return []
+
+
+def compile_pdfs(root: Path) -> None:
+    typ_files = sorted(root.glob("ch*.typ"))
+    if not typ_files:
+        print("No ch*.typ files found to compile.")
+        return
+
+    typst_cmd = find_typst()
+    if not typst_cmd:
+        print("typst not found — skipping PDF compilation. Install typst or tinymist.")
+        return
+
+    for typ_file in typ_files:
+        print(f"Compiling {typ_file.name} …", end=" ", flush=True)
+        result = subprocess.run(
+            typst_cmd + ["compile", str(typ_file)],
+            capture_output=True, text=True
+        )
+        if result.returncode == 0:
+            print("ok")
+        else:
+            print("FAILED")
+            if result.stderr:
+                print(result.stderr.strip())
+
+
 def main():
     # The current git working tree (may be a worktree or the main repo).
     current_root = Path(
@@ -132,6 +174,8 @@ def main():
     new_content = build_readme(main_root)
     readme_path.write_text(new_content)
     print(f"README.md updated ({current_root})")
+
+    compile_pdfs(main_root)
 
 
 if __name__ == "__main__":
