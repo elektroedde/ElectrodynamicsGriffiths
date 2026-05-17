@@ -102,7 +102,7 @@ Solutions to problems from *Introduction to Electrodynamics* (4th Edition) by Da
 
 ## Progress
 
-**{total_solved} / {TOTAL_PROBLEMS} problems complete**
+**{total_solved} / {TOTAL_PROBLEMS} problems complete ({100*total_solved/TOTAL_PROBLEMS:.0f}%)**
 
 ---
 
