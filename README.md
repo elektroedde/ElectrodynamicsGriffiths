@@ -16,7 +16,7 @@ Solutions to problems from *Introduction to Electrodynamics* (4th Edition) by Da
 
 ## Progress
 
-**30 / 632 problems complete (5%)**
+**31 / 632 problems complete (5%)**
 
 ---
 
@@ -28,7 +28,7 @@ Solutions to problems from *Introduction to Electrodynamics* (4th Edition) by Da
 <tr><td>17 ❌</td><td>18 ✅</td><td>19 ❌</td><td>20 ✅</td><td>21 ❌</td><td>22 ❌</td><td>23 ❌</td><td>24 ❌</td></tr>
 <tr><td>25 ✅</td><td>26 ✅</td><td>27 ✅</td><td>28 ✅</td><td>29 ✅</td><td>30 ✅</td><td>31 ✅</td><td>32 ✅</td></tr>
 <tr><td>33 ✅</td><td>34 ✅</td><td>35 ✅</td><td>36 ❌</td><td>37 ❌</td><td>38 ❌</td><td>39 ❌</td><td>40 ❌</td></tr>
-<tr><td>41 ❌</td><td>42 ❌</td><td>43 ❌</td><td>44 ✅</td><td>45 ✅</td><td>46 ❌</td><td>47 ❌</td><td>48 ❌</td></tr>
+<tr><td>41 ❌</td><td>42 ❌</td><td>43 ❌</td><td>44 ✅</td><td>45 ✅</td><td>46 ✅</td><td>47 ❌</td><td>48 ❌</td></tr>
 <tr><td>49 ❌</td><td>50 ❌</td><td>51 ❌</td><td>52 ❌</td><td>53 ❌</td><td>54 ❌</td><td>55 ❌</td><td>56 ❌</td></tr>
 <tr><td>57 ❌</td><td>58 ❌</td><td>59 ❌</td><td>60 ❌</td><td>61 ❌</td><td>62 ❌</td><td>63 ❌</td><td>64 ❌</td></tr>
 <tr><td>65 ❌</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
