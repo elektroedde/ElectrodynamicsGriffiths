@@ -1,6 +1,6 @@
 #import "@preview/physica:0.9.8": *
 #import "@preview/mannot:0.3.3": *
-
+#import "@preview/cetz:0.5.2": *
 #let myfont = "New Computer Modern Math"
 #let problem(body) = {
   show math.equation: set text(font: myfont)
