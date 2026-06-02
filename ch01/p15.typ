@@ -13,7 +13,7 @@ Calculate the divergence of the following vector functions:
 #solution[
   The divergence of a vector $bold(v)$ is defined as 
   $
-    nabla dot bold(v) = dvp(v_x, x) + dvp(v_y, y) + dvp(v_z, z)
+    nabla dot bold(v) = pdv(v_x, x) + pdv(v_y, y) + pdv(v_z, z)
   $
 
   $

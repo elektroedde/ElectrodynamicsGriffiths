@@ -12,15 +12,15 @@ Construct a vector function that has a zero divergence and zero curl everywhere.
   $
   Using the definitions of the divergence and curl, the conditions are
   $
-    nabla dot bold(R) = dvp(R_x, x) + dvp(R_y, y) + dvp(R_z, z) = 0 \
-    nabla times bold(R) = (dvp(R_z, y) - dvp(R_y, z))bh(x) + (dvp(R_x, z) - dvp(R_z, x))bh(y) + (dvp(R_y, x) - dvp(R_x,y))bh(z)
+    nabla dot bold(R) = pdv(R_x, x) + pdv(R_y, y) + pdv(R_z, z) = 0 \
+    nabla times bold(R) = (pdv(R_z, y) - pdv(R_y, z))bh(x) + (pdv(R_x, z) - pdv(R_z, x))bh(y) + (pdv(R_y, x) - pdv(R_x,y))bh(z)
   $
 
   Want to fulfill:
   $
-    dvp(R_z,y) = dvp(R_y, z) \
-    dvp(R_x, z) = dvp(R_z, x) \
-    dvp(R_y, x) = dvp(R_x, y)
+    pdv(R_z,y) = pdv(R_y, z) \
+    pdv(R_x, z) = pdv(R_z, x) \
+    pdv(R_y, x) = pdv(R_x, y)
   $
 
   An example is $bold(R) = y z bh(x) + x z bh(y) + x y bh(z)$

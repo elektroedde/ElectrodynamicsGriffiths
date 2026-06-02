@@ -25,7 +25,7 @@
   $
     curl(A) = x^2 bh(z) \
     arrow.b\
-    (dvp(A_z, y)-dvp(A_y, z)) = (dvp(A_x, z)-dvp(A_z, x)) = 0", " (dvp(A_y, x)-dvp(A_x, y)) = x^2
+    (pdv(A_z, y)-pdv(A_y, z)) = (pdv(A_x, z)-pdv(A_z, x)) = 0", " (pdv(A_y, x)-pdv(A_x, y)) = x^2
   $
   One of the vectors that satisfy this is 
   $
@@ -37,7 +37,7 @@
   $
     -(grad(V)) = x bh(x) + y bh(y) + z bh(z) \
     arrow.b\
-    cases(-dvp(V, x) = x, -dvp(V, y) = y, -dvp(V,z) = z)
+    cases(-pdv(V, x) = x, -pdv(V, y) = y, -pdv(V,z) = z)
   $
   One of the scalars that satisfy this is 
   $

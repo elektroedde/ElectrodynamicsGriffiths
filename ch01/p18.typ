@@ -13,7 +13,7 @@ Calculate the curls of the vector functions
 #solution[
 The definition of the curl of a vector function $bold(v)$ is
 $
-  nabla times bold(v) = mat(delim: "|", bh(x), bh(y), bh(z);dvp(,x), dvp(,y), dvp(,z); v_x, v_y, v_z) = (dvp(v_z, y) - dvp(v_y, z))bh(x) + (dvp(v_x, z) - dvp(v_z, x))bh(y) + (dvp(v_y, x) - dvp(v_x,y))bh(z)
+  nabla times bold(v) = mat(delim: "|", bh(x), bh(y), bh(z);pdv(,x), pdv(,y), pdv(,z); v_x, v_y, v_z) = (pdv(v_z, y) - pdv(v_y, z))bh(x) + (pdv(v_x, z) - pdv(v_z, x))bh(y) + (pdv(v_y, x) - pdv(v_x,y))bh(z)
 $
 This gives
 $

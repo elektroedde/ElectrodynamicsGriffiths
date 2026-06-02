@@ -21,19 +21,19 @@ $
 (a) Start with LHS:
 $
   nabla dot (bold(A) times bold(B)) = nabla dot ((A_y B_z - A_z B_y)bh(x) + (A_z B_x - A_x B_z)bh(y) + (A_x B_y - A_y B_x)bh(z)) = \
-  = dvp(, x)(A_y B_z - A_z B_y) + dvp(,y)(A_z B_x - A_x B_z) + dvp(, z)(A_x B_y - A_y B_x) =\
-  = dvp(, x) (6x z) + dvp(, y)(9z y) + dvp(, z)(-2x^2 - 6y^2) = 6z + 9z = ans(15z)
+  = pdv(, x)(A_y B_z - A_z B_y) + pdv(,y)(A_z B_x - A_x B_z) + pdv(, z)(A_x B_y - A_y B_x) =\
+  = pdv(, x) (6x z) + pdv(, y)(9z y) + pdv(, z)(-2x^2 - 6y^2) = 6z + 9z = ans(15z)
 $
 
 RHS:
 $
   underbrace(bold(B) dot (nabla times bold(A)), (1)) - underbrace(bold(A) dot (nabla times bold(B)), (2)) =\
   "(1)" bold(B) dot [curl(A)] =\
-  = B_x (dvp(A_z, y) - dvp(A_y, z)) + B_y (dvp(A_x, z) - dvp(A_z, x)) + B_z (dvp(A_y,x) - dvp(A_x, y)) = 0\
+  = B_x (pdv(A_z, y) - pdv(A_y, z)) + B_y (pdv(A_x, z) - pdv(A_z, x)) + B_z (pdv(A_y,x) - pdv(A_x, y)) = 0\
 
 
   "(2)" bold(A) dot [curl(B)] =\
-  = A_x (dvp(B_z, y) - dvp(B_y, z)) + A_y (dvp(B_x, z) - dvp(B_z, x)) + A_z (dvp(B_y,x) - dvp(B_x, y)) =\
+  = A_x (pdv(B_z, y) - pdv(B_y, z)) + A_y (pdv(B_x, z) - pdv(B_z, x)) + A_z (pdv(B_y,x) - pdv(B_x, y)) =\
   = 3z(-5) = -15 z \
   \
   "(1)" - "(2)" = 0 - (-15z) = ans(15z)
@@ -42,7 +42,7 @@ $
 (b) LHS:
 $
   nabla(bold(A) dot bold(B)) = nabla(A_x B_x + A_y B_y + A_z B_z) = nabla(3x y  -4x y) = \
-  = dvp((-x y), x)bh(x) + dvp((-x y), y)bh(y) = ans(-y bh(x) - x bh(y))
+  = pdv((-x y), x)bh(x) + pdv((-x y), y)bh(y) = ans(-y bh(x) - x bh(y))
 $
 
 RHS:

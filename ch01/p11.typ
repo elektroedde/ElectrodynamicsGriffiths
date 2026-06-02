@@ -12,7 +12,7 @@ $
 #solution[
   The gradient of a function $T$ is defined as 
   $
-    nabla T = dvp(T, x) bh(x) + dvp(T, y) bh(y) + dvp(T, z) bh(z) 
+    nabla T = pdv(T, x) bh(x) + pdv(T, y) bh(y) + pdv(T, z) bh(z) 
   $
   This results in
   $

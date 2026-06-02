@@ -15,7 +15,7 @@ $"(d)" bold(v) = x^2 bh(x) + 3x z^2 bh(y) - 2x z bh(z)$
 #solution[
   The Laplacian of a function $T$ is defined as
   $
-    nabla^2 T = dvp(T, x, deg: 2) + dvp(T, y, deg: 2) + dvp(T, z, deg: 2)
+    nabla^2 T = pdv(T, x, deg: 2) + pdv(T, y, deg: 2) + pdv(T, z, deg: 2)
   $
   and the Laplacian of a vector $bold(v)$ is defined as 
   $
