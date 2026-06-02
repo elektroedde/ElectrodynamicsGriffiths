@@ -1,5 +1,6 @@
-#import "@preview/diverential:0.3.0": *
+#import "@preview/physica:0.9.8": *
 #import "@preview/mannot:0.3.3": *
+
 #let bh(content) = $bold(hat(content))$
 #let solution(body) = {
   block(
@@ -38,21 +39,21 @@
 #let integr2(a1, b1, a2, b2, c, d1, d2) = $limits(integral)_#a1^#b1 limits(integral)_#a2^#b2 #c dif #d1 dif #d2$
 
 #let grad(A) = $
-                 dvp(#A, x)bh(x) + dvp(#A, y)bh(y) + dvp(#A, z)bh(z)
+                 pdv(#A, x)bh(x) + pdv(#A, y)bh(y) + pdv(#A, z)bh(z)
                $
 
-#let curl(B) = $(dvp(#B _z, y)-dvp(#B _y,z))bh(x) + (dvp(#B _x, z)-dvp(#B _z,x))bh(y) + (dvp(#B _y, x)-dvp(#B _x,y))bh(z)$
+#let curldef(B) = $(pdv(#B _z, y)-pdv(#B _y,z))bh(x) + (pdv(#B _x, z)-pdv(#B _z,x))bh(y) + (pdv(#B _y, x)-pdv(#B _x,y))bh(z)$
 
-#let curlc(x, y, z) = $(dvp(#z, y)-dvp(#y,z))bh(x) + (dvp(#x, z)-dvp(#z,x))bh(y) + (dvp(#y, x)-dvp(#x,y))bh(z)$
+#let curlc(x, y, z) = $(pdv(#z, y)-pdv(#y,z))bh(x) + (pdv(#x, z)-pdv(#z,x))bh(y) + (pdv(#y, x)-pdv(#x,y))bh(z)$
 
-#let divergence(A) = $dvp(#A _x, x) + dvp(#A _y, y) + dvp(#A _z, z)$
+#let divergence(A) = $pdv(#A _x, x) + pdv(#A _y, y) + pdv(#A _z, z)$
 
 #let cross(A, B) = $(#A _y #B _z - #A _z #B _y)bh(x) + (#A _z #B _x - #A _x #B _z)bh(y) + (#A _x #B _y - #A _y #B _x)bh(z)$
 
 #let dotnabla(A, B) = $
-  (#A _x dvp(#B _x, x) + #A _y dvp(#B _x, y) + #A _z dvp(#B _x, z))bh(x) \
-  +(#A _x dvp(#B _y, x) + #A _y dvp(#B _y, y) + #A _z dvp(#B _y, z))bh(y) \
-  "  "+(#A _x dvp(#B _z, x) + #A _y dvp(#B _z, y) + #A _z dvp(#B _z, z))bh(z)
+  (#A _x pdv(#B _x, x) + #A _y pdv(#B _x, y) + #A _z pdv(#B _x, z))bh(x) \
+  +(#A _x pdv(#B _y, x) + #A _y pdv(#B _y, y) + #A _z pdv(#B _y, z))bh(y) \
+  "  "+(#A _x pdv(#B _z, x) + #A _y pdv(#B _z, y) + #A _z pdv(#B _z, z))bh(z)
 $
 
 #let volint(A) = $

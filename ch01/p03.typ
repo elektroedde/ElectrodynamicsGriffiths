@@ -1,8 +1,14 @@
 #import "../template.typ": *
 
+
 =
 Find the angle between the body diagonals of a cube.
 #solution[
+  $
+    pdv(x,y,z,p,[2,k,2])\
+    curl B\
+    curldef(B)
+  $
   The body diagonals $bold(A) = [1, 1, 1] "and " bold(B) = [1, 1, -1]$
 
   #figure(image("p03.png"))

@@ -17,10 +17,10 @@ Show (d) $arrow.double$ (a), (a) $arrow.double$ (c), (c) $arrow.double$ (b), (b)
   (d) $arrow.double$ (a)
   $
     nabla dot (nabla times bold(A)) = nabla dot (curl(A)) = \
-    = dvp(A_z,y,x,deg:2) - dvp(A_y, z, x, deg: 2)
-    + dvp(A_x,z,y,deg:2) - dvp(A_z, x, y, deg: 2)
-    + dvp(A_y,x,z,deg:2) - dvp(A_x, y, z, deg: 2) = \
-    = (dvp(A_z,y,x,deg:2) - dvp(A_z, x, y, deg: 2)) + (dvp(A_x,z,y,deg:2)-dvp(A_x, y, z, deg: 2)) + (dvp(A_y,x,z,deg:2)-dvp(A_y, z, x, deg: 2)) = 0 "  "square
+    = pdv(A_z,y,x,deg:2) - pdv(A_y, z, x, deg: 2)
+    + pdv(A_x,z,y,deg:2) - pdv(A_z, x, y, deg: 2)
+    + pdv(A_y,x,z,deg:2) - pdv(A_x, y, z, deg: 2) = \
+    = (pdv(A_z,y,x,deg:2) - pdv(A_z, x, y, deg: 2)) + (pdv(A_x,z,y,deg:2)-pdv(A_x, y, z, deg: 2)) + (pdv(A_y,x,z,deg:2)-pdv(A_y, z, x, deg: 2)) = 0 "  "square
   $
   
   (a) $arrow.double$ (c)
