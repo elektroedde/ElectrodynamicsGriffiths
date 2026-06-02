@@ -1,4 +1,5 @@
 #import "../template.typ": *
+#show: problem
 
 =
 Use the cross product to find the components of the unit vector $bh(n)$ perpendicular to the shaded plane in Fig.

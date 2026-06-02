@@ -1,4 +1,5 @@
 #import "../template.typ": *
+#show: problem
 
 =
 Is the cross product associative?

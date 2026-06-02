@@ -1,4 +1,5 @@
 #import "../template.typ": *
+#show: problem
 
 =
 Test the divergence theorem for the function $bold(v) = (x y) bh(x) + (2y z)bh(y)+ (3x z)bh(z)$. Take as your volume the cube with corners $(0,0,0)","(0,0,2)","(0,2,0)","(2,0,0)$

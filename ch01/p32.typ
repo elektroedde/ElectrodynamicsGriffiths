@@ -1,4 +1,5 @@
 #import "../template.typ": *
+#show: problem
 
 =
 Check the fundamental theorem for gradients, using $T = x^2 + 4x y + 2y z^3$, the points $bold(a) = (0,0,0)$, $bold(b) = (1,1,1)$, and the three paths:

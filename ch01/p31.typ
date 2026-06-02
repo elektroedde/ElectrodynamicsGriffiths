@@ -1,4 +1,5 @@
 #import "../template.typ": *
+#show: problem
 
 =
 Calculate the volume integral of the function $T = z^2$ over the tetrahedron with corners at $(0,0,0)", "(1,0,0)", "(0,1,0)", and" (0,0,1)$.

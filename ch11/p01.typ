@@ -1,4 +1,5 @@
 #import "../template.typ": *
+#show: problem
 
 =
 Check that the retarded potentials of an oscillating dipole

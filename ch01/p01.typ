@@ -1,4 +1,5 @@
 #import "../template.typ": *
+#show: problem
 
 =
 Show that the dot product and cross product is distributive

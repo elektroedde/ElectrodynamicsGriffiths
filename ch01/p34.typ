@@ -1,4 +1,5 @@
 #import "../template.typ": *
+#show: problem
 
 =
 Test Stokes' theorem for the function $bold(v) = (x y)bh(x) + (2 y z)bh(y) + (3x z)bh(z)$, using the triangular area with points $(0,0,0)"," (0,1,0)","(0,0,1)$.

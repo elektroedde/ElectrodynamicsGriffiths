@@ -1,4 +1,5 @@
 #import "../template.typ": *
+#show: problem
 
 =
 Prove that the divergence of a curl is always zero. 

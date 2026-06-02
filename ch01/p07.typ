@@ -1,4 +1,5 @@
 #import "../template.typ": *
+#show: problem
 
 =
 Find the separation vector $scrr r s$ from the source point (2, 8, 7) to the field point (4, 6, 8). Determine its magnitude ($scrr$), and construct the unit vector $hscrr$.

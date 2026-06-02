@@ -1,4 +1,5 @@
 #import "../template.typ": *
+#show: problem
 
 =
 Prove the $bold("BAC-CAB")$ rule,

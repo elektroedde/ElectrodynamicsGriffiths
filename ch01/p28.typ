@@ -1,4 +1,5 @@
 #import "../template.typ": *
+#show: problem
 
 =
 Prove that the curl of a gradient is always zero.

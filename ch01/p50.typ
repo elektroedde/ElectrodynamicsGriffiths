@@ -1,4 +1,5 @@
 #import "../template.typ": *
+#show: problem
 
 =
 (a) Let $bold(F)_1 = x^2 bh(z)$ and $bold(F)_2 = x bh(x) + y bh(y) + z bh(z)$. Calculate the divergence and curl of $bold(F)_1$ and $bold(F)_2$. Which one can be written as the gradient of a scalar? Find a scalar potential that does the job. Which one can be written as the curl of a vector? Find a suitable vector potential.

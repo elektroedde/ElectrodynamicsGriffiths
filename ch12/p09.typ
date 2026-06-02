@@ -1,4 +1,5 @@
 #import "../template.typ": *
+#show: problem
 
 =
 A Lincoln Continental is twice as long as a VW Beetle, when they are at rest. As the Continental overtakes the VW, going through a speed trap, a (stationary) policeman observes that they both have the same length. The VW is going at half the speed of light. How fast is the Lincoln going?

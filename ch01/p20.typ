@@ -1,4 +1,5 @@
 #import "../template.typ": *
+#show: problem
 
 =
 Construct a vector function that has a zero divergence and zero curl everywhere.

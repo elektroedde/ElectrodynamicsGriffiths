@@ -1,4 +1,5 @@
 #import "../template.typ": *
+#show: problem
 
 =
 Sketch the vector function

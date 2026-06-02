@@ -1,9 +1,12 @@
 #import "../template.typ": *
+#show: problem
 
 =
 Let $bscrr$ be the separation vector from a fixed point $(x', y', z')$ to the point $(x, y, z)$, and let $scrr$ be its length. Show that
 
-$"(a)" nabla (scrr^2) = 2 bscrr$
+$
+"(a)" nabla (scrr^2) = 2 bscrr
+$
 
 $"(b)" nabla (1/scrr) = -hscrr \/ scrr^2$
 

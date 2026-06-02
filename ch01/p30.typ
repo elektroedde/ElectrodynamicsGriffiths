@@ -1,4 +1,5 @@
 #import "../template.typ": *
+#show: problem
 
 =
 Calculate the surface integral of the function 

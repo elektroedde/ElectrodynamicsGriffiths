@@ -1,4 +1,5 @@
 #import "../template.typ": *
+#show: problem
 
 =
 Calculate the line integral of the function $bold(v) = x^2 bh(x) + 2y z bh(y) + y^2 bh(z)$ from the origin to the point $(1, 1, 1)$ by three different routes:

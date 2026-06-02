@@ -1,4 +1,5 @@
 #import "../template.typ": *
+#show: problem
 
 =
 As the outlaws escape in their getaway car, which goes $3/4 c$, the police officer fires a bullet from the pursuit car, which only goes $1/2 c$. The muzzle velocity of the bullet (relative to the gun) is $1/3 c$. Does the bullet reach its target (a) according to Galileo, (b) according to Einstein?

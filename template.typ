@@ -1,8 +1,17 @@
 #import "@preview/physica:0.9.8": *
 #import "@preview/mannot:0.3.3": *
 
+#let myfont = "New Computer Modern Math"
+#let problem(body) = {
+  show math.equation: set text(font: myfont)
+  show math.epsilon: math.epsilon.alt
+  show math.nabla: math.bold(math.nabla)
+  body
+}
+
 #let bh(content) = $bold(hat(content))$
 #let solution(body) = {
+show math.equation: set text(font: myfont)
   block(
     width: 100%,
     fill: rgb("#c8ffad"), //e8f5e9
@@ -79,6 +88,7 @@ $
 )
 
 #let chapter(title: "", number: 1, body) = {
+  
   set document(title: title, author: "Edvin")
 
   set page(
@@ -92,9 +102,12 @@ $
       }
     },
   )
+  
 
 
   set text(font: "New Computer Modern", size: 11pt)
+
+  
 
   set par(justify: true, leading: 0.65em)
 
@@ -127,10 +140,13 @@ $
     #v(0.2cm)
     #line(length: 60%, stroke: 0.6pt)
     #v(1cm)
+    
   ]
 
   show math.epsilon: math.epsilon.alt
   show math.nabla: math.bold(math.nabla)
+  
 
   body
 }
+

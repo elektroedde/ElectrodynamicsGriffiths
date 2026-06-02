@@ -1,4 +1,5 @@
 #import "../template.typ": *
+#show: problem
 
 =
 Find the gradients of the following functions:

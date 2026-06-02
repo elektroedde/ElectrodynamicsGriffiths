@@ -1,4 +1,5 @@
 #import "../template.typ": *
+#show: problem
 
 =
 Calculate the divergence of the following vector functions:

@@ -1,4 +1,5 @@
 #import "../template.typ": *
+#show: problem
 
 =
 The height of a certain hill (in feet) is given by

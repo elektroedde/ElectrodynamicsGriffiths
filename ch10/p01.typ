@@ -1,4 +1,5 @@
 #import "../template.typ": *
+#show: problem
 
 =
 Show that the differential equations for $V$ and $bold(A)$

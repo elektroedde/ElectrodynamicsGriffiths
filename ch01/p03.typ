@@ -1,8 +1,8 @@
 #import "../template.typ": *
-
-
+#show: problem
 =
 Find the angle between the body diagonals of a cube.
+
 #solution[
   $
     pdv(x,y,z,p,[2,k,2])\

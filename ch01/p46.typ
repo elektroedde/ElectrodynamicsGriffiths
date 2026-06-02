@@ -1,4 +1,5 @@
 #import "../template.typ": *
+#show: problem
 
 =
 (a) Show that 
