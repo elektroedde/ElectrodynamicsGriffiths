@@ -1,4 +1,4 @@
-#import "../template.typ": *
+#import "@local/elektroedde:0.1.0": *
 #show: problem
 =
 Find the angle between the body diagonals of a cube.

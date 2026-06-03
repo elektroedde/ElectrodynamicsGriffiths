@@ -25,7 +25,7 @@ TOTAL_PROBLEMS = sum(n for _, _, n in CHAPTERS)
 CHAPTER_NAMES = {
     1:  "Vector Analysis",
     2:  "Electrostatics",
-    3:  "Special Techniques",
+    3:  "Potentials",
     4:  "Electric Fields in Matter",
     5:  "Magnetostatics",
     6:  "Magnetic Fields in Matter",
