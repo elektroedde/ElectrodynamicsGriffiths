@@ -4,12 +4,12 @@
 =
 Calculate the surface integral of the function 
 $
-  bold(v) = 2x z bh(x) + (x + 2)bh(y) + y(z^2-3)bh(z)
+  bold(v) = 2x z vu(x) + (x + 2)vu(y) + y(z^2-3)vu(z)
 $
 over the bottom of the box. For consistency, let "upward" be the positive direction. Does the surface integral depend only on the boundary line for this function? What is the total flux over the closed surface of the box (including the bottom)?
 
 #solution[
-  For the bottom of the box, $x,y":" 0 arrow 2$, $z = 0$ and $dif bold(a) = dif x dif y bh(z)$
+  For the bottom of the box, $x,y":" 0 arrow 2$, $z = 0$ and $dif bold(a) = dif x dif y vu(z)$
 
   $
     integr2(0, 2, 0, 2, -3y, x, y) = integr(0, 2, (integr(0, 2, -3y, y)), x) = integr(0, 2, -6, x) = ans(-12)

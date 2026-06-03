@@ -2,7 +2,7 @@
 #show: problem
 
 =
-Test Stokes' theorem for the function $bold(v) = (x y)bh(x) + (2 y z)bh(y) + (3x z)bh(z)$, using the triangular area with points $(0,0,0)"," (0,1,0)","(0,0,1)$.
+Test Stokes' theorem for the function $bold(v) = (x y)vu(x) + (2 y z)vu(y) + (3x z)vu(z)$, using the triangular area with points $(0,0,0)"," (0,1,0)","(0,0,1)$.
 
 #solution[
   Stokes's theorem
@@ -11,8 +11,8 @@ Test Stokes' theorem for the function $bold(v) = (x y)bh(x) + (2 y z)bh(y) + (3x
   $
 
   $
-    nabla times bold(v) = (-2y)bh(x) + (-3z)bh(y) + (-x)bh(z) \ 
-    dif bold(a) = dif y dif z bh(x) \
+    nabla times bold(v) = (-2y)vu(x) + (-3z)vu(y) + (-x)vu(z) \ 
+    dif bold(a) = dif y dif z vu(x) \
     y: 0 arrow 2-z \
     z: 0 arrow 2 \
     \
@@ -23,7 +23,7 @@ Test Stokes' theorem for the function $bold(v) = (x y)bh(x) + (2 y z)bh(y) + (3x
   Line 1:
   $
     (0,0,0) arrow (0,2,0) \
-    dif bold(l) = dif x bh(x) \
+    dif bold(l) = dif x vu(x) \
     x = z = 0 \
     integral_0^2 0 dif x = 0
   $
@@ -39,7 +39,7 @@ Test Stokes' theorem for the function $bold(v) = (x y)bh(x) + (2 y z)bh(y) + (3x
   Line 3:
   $
     (0,0,2) arrow (0,0,0) \
-    dif bold(l) = dif z bh(z) \
+    dif bold(l) = dif z vu(z) \
     y = x = 0 \
     integral_2^0 0 dif z = 0
   $

@@ -13,7 +13,7 @@ Prove that the divergence of a curl is always zero.
   Using the definition of the divergence and curl:
    $
     nabla dot bold(v) = pdv(v_x, x) + pdv(v_y, y) + pdv(v_z, z) = 0 \
-    nabla times bold(v) = (pdv(v_z, y) - pdv(v_y, z))bh(x) + (pdv(v_x, z) - pdv(v_z, x))bh(y) + (pdv(v_y, x) - pdv(v_x,y))bh(z)
+    nabla times bold(v) = (pdv(v_z, y) - pdv(v_y, z))vu(x) + (pdv(v_x, z) - pdv(v_z, x))vu(y) + (pdv(v_y, x) - pdv(v_x,y))vu(z)
   $
   the result is 
   $

@@ -2,7 +2,7 @@
 #show: problem
 
 =
-Test the divergence theorem for the function $bold(v) = (x y) bh(x) + (2y z)bh(y)+ (3x z)bh(z)$. Take as your volume the cube with corners $(0,0,0)","(0,0,2)","(0,2,0)","(2,0,0)$
+Test the divergence theorem for the function $bold(v) = (x y) vu(x) + (2y z)vu(y)+ (3x z)vu(z)$. Take as your volume the cube with corners $(0,0,0)","(0,0,2)","(0,2,0)","(2,0,0)$
 
 #figure(image("p33.png", width: 50%))
 
@@ -26,38 +26,38 @@ Test the divergence theorem for the function $bold(v) = (x y) bh(x) + (2y z)bh(y
 
   Top face:
   $
-    x","y: 0 arrow 2 "," z = 2 "," dif bold(a) = dif x dif y bh(z) \
+    x","y: 0 arrow 2 "," z = 2 "," dif bold(a) = dif x dif y vu(z) \
     integral_S 6x dif x dif y = 24
   $
 
   Bottom face: 
   $
-     x","y: 0 arrow 2 "," z = 0 "," dif bold(a) = dif x dif y (-bh(z)) \
+     x","y: 0 arrow 2 "," z = 0 "," dif bold(a) = dif x dif y (-vu(z)) \
      integral_S 0 dif x dif y = 0
   $
 
   Left face:
   $
-    x","z: 0 arrow 2 "," y = 0 "," dif bold(a) = dif x dif z (-bh(y)) \
+    x","z: 0 arrow 2 "," y = 0 "," dif bold(a) = dif x dif z (-vu(y)) \
      integral_S 0 dif x dif z = 0
   $
 
   Right face: 
   $
     
-  x","z: 0 arrow 2 "," y = 2 "," dif bold(a) = dif x dif z bh(y) \
+  x","z: 0 arrow 2 "," y = 2 "," dif bold(a) = dif x dif z vu(y) \
    integral_S 4z dif x dif z = 16
   $
 
   Front face:
   $
-    y","z: 0 arrow 2 "," x = 2 "," dif bold(a) = dif y dif z bh(x) \
+    y","z: 0 arrow 2 "," x = 2 "," dif bold(a) = dif y dif z vu(x) \
    integral_S 2y dif y dif z = 8
   $
 
   Back face:
   $
-    y","z: 0 arrow 2 "," x = 0 "," dif bold(a) = dif y dif z (-bh(x)) \
+    y","z: 0 arrow 2 "," x = 0 "," dif bold(a) = dif y dif z (-vu(x)) \
    integral_S 0 dif y dif z = 0
   $
 

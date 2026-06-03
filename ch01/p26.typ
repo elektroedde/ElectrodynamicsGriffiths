@@ -10,7 +10,7 @@ $"(b)" T_b = sin x sin y sin z$
 
 $"(c)" T_c = e^(-5x)sin 4y cos 3z$
 
-$"(d)" bold(v) = x^2 bh(x) + 3x z^2 bh(y) - 2x z bh(z)$
+$"(d)" bold(v) = x^2 vu(x) + 3x z^2 vu(y) - 2x z vu(z)$
 
 #solution[
   The Laplacian of a function $T$ is defined as
@@ -19,7 +19,7 @@ $"(d)" bold(v) = x^2 bh(x) + 3x z^2 bh(y) - 2x z bh(z)$
   $
   and the Laplacian of a vector $bold(v)$ is defined as 
   $
-    nabla^2 bold(v) = (nabla^2 v_x)bh(x) + (nabla^2 v_y)bh(y) + (nabla^2 v_z)bh(z)
+    nabla^2 bold(v) = (nabla^2 v_x)vu(x) + (nabla^2 v_y)vu(y) + (nabla^2 v_z)vu(z)
   $
 
   Using this, the result is
@@ -30,6 +30,6 @@ $"(d)" bold(v) = x^2 bh(x) + 3x z^2 bh(y) - 2x z bh(z)$
 
   $"(c)" nabla^2 T_c = e^(-5x) sin 4y cos 3z (25 - 16 - 9) = 0$
 
-  $"(d)" nabla^2 bold(v) = 2bh(x) + 6x bh(y)$
+  $"(d)" nabla^2 bold(v) = 2vu(x) + 6x vu(y)$
   
 ]

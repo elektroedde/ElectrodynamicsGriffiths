@@ -10,17 +10,17 @@ $
 #solution[
 No, for example set
 $
-bold(A) = bh(x)\
-bold(B) = bh(x)\
-bold(C) = bh(z)
+bold(A) = vu(x)\
+bold(B) = vu(x)\
+bold(C) = vu(z)
  $
 
  Then, the left hand side above becomes
  $
-   (bold(A) times bold(B)) times bold(C) = (bh(x) times bh(x)) times bh(z) = 0
+   (bold(A) times bold(B)) times bold(C) = (vu(x) times vu(x)) times vu(z) = 0
  $
  while the right hand side is
  $
-   bold(A) times (bold(B) times bold(C)) = bh(x) times (bh(x) times bh(z)) = bh(x) times -bh(y) = -bh(z)
+   bold(A) times (bold(B) times bold(C)) = vu(x) times (vu(x) times vu(z)) = vu(x) times -vu(y) = -vu(z)
  $
 ]

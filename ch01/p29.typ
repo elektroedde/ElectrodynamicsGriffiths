@@ -2,7 +2,7 @@
 #show: problem
 
 =
-Calculate the line integral of the function $bold(v) = x^2 bh(x) + 2y z bh(y) + y^2 bh(z)$ from the origin to the point $(1, 1, 1)$ by three different routes:
+Calculate the line integral of the function $bold(v) = x^2 vu(x) + 2y z vu(y) + y^2 vu(z)$ from the origin to the point $(1, 1, 1)$ by three different routes:
 
 (a) $(0,0,0) arrow (1,0,0) arrow (1,1,0) arrow (1,1,1)$
 
@@ -17,32 +17,32 @@ Calculate the line integral of the function $bold(v) = x^2 bh(x) + 2y z bh(y) + 
   $
     integr(a,b, bold(v)dot, bold(l))
   $
-  where $d bold(l) = d x bh(x) + d y bh(y) + d z bh(z)$
+  where $d bold(l) = d x vu(x) + d y vu(y) + d z vu(z)$
 
   (a) 
   
-  $(0,0,0) arrow (1,0,0)$ has $d bold(l) = d x bh(x)$ and $x":" 0 arrow 1, y=0, z=0$. 
+  $(0,0,0) arrow (1,0,0)$ has $d bold(l) = d x vu(x)$ and $x":" 0 arrow 1, y=0, z=0$. 
 
-   $(1,0,0) arrow (1,1,0)$ has $d bold(l) = d y bh(y)$ and $y":" 0 arrow 1, x=1, z=0$. 
+   $(1,0,0) arrow (1,1,0)$ has $d bold(l) = d y vu(y)$ and $y":" 0 arrow 1, x=1, z=0$. 
 
-   $(1,1,0) arrow (1,1,1)$ has $d bold(l) = d z bh(z)$ and $z":" 0 arrow 1, x=1, y=1$. 
+   $(1,1,0) arrow (1,1,1)$ has $d bold(l) = d z vu(z)$ and $z":" 0 arrow 1, x=1, y=1$. 
   $
     integr(0, 1, x^2, x) + integr(0, 1,2y z, y) + integr(0, 1, y^2, z) = integr(0, 1, x^2, x) + integr(0, 1, 1, z) = 1/3 + 1 = ans(4/3)
   $
 
   (b) 
 
-  $(0,0,0) arrow (0,0,1)$ has $dif bold(l) = dif z bh(z)$ and $z":" 0 arrow 1, x=0, y=0$. 
+  $(0,0,0) arrow (0,0,1)$ has $dif bold(l) = dif z vu(z)$ and $z":" 0 arrow 1, x=0, y=0$. 
 
-   $(0,0,1) arrow (0,1,1)$ has $dif bold(l) = dif y bh(y)$ and $y":" 0 arrow 1, x=0, z=1$. 
+   $(0,0,1) arrow (0,1,1)$ has $dif bold(l) = dif y vu(y)$ and $y":" 0 arrow 1, x=0, z=1$. 
 
-   $(0,1,1) arrow (1,1,1)$ has $dif bold(l) = dif x bh(x)$ and $x":" 0 arrow 1, y=1, z=1$.
+   $(0,1,1) arrow (1,1,1)$ has $dif bold(l) = dif x vu(x)$ and $x":" 0 arrow 1, y=1, z=1$.
 
    $
      integr(0, 1, y^2,z) + integr(0, 1, 2 y z, y) + integr(0, 1, x^2 , x) = integr(0, 1, 2y, y) + integr(0, 1, x^2, x) = 1 + 1/3 = ans(4/3)
    $ 
 
-   (c) The direct straight line is obtained by setting $x = y = z = t$ and letting $t":" 0 arrow 1$. Also, $dif bold(l) = dif t bh(t)$, giving $bold(v) dot dif bold(l) = 4t^2 dif t$.
+   (c) The direct straight line is obtained by setting $x = y = z = t$ and letting $t":" 0 arrow 1$. Also, $dif bold(l) = dif t vu(t)$, giving $bold(v) dot dif bold(l) = 4t^2 dif t$.
    $
      integr(0, 1, 4t^2, t) = ans(4/3)
    $

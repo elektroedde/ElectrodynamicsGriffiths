@@ -21,7 +21,7 @@ $"(c) What is the general formula for " nabla(scrr^n)"?"$
   (a)
   $
     nabla (scrr^2) = nabla((x-x')^2 + (y-y')^2 + (z-z')^2) = \
-    = 2(x-x')bh(x) + 2(y-y')bh(y) + 2(z-z')bh(z) = 2 bscrr
+    = 2(x-x')vu(x) + 2(y-y')vu(y) + 2(z-z')vu(z) = 2 bscrr
   $
 
   (b)
@@ -33,7 +33,7 @@ $"(c) What is the general formula for " nabla(scrr^n)"?"$
   (c)
     $
     nabla (scrr^n) = nabla(((x-x')^2 + (y-y')^2 + (z-z')^2)^(n/2)) = \
-    = n/2 (2(x-x')bh(x) + 2(y-y')bh(y) + 2(z-z')bh(z)) [(x-x')^2 + (y-y')^2 + (z-z')^2]^((n-2)/2) =\
+    = n/2 (2(x-x')vu(x) + 2(y-y')vu(y) + 2(z-z')vu(z)) [(x-x')^2 + (y-y')^2 + (z-z')^2]^((n-2)/2) =\
     = n scrr^(n-2) bscrr
   $
 ]

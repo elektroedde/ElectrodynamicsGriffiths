@@ -16,7 +16,7 @@ $"(c) the parabolic path" z=x^2"," y = x $
     integral_a^b (nabla T) dot dif bold(l) = T(bold(b)) - T(bold(a))
   $
   $
-    nabla T = (2x + 4y)bh(x) + (4x + 2z^3)bh(y) + (6y z^2)bh(z)
+    nabla T = (2x + 4y)vu(x) + (4x + 2z^3)vu(y) + (6y z^2)vu(z)
   $
 
   RHS for all paths is 
@@ -27,17 +27,17 @@ $"(c) the parabolic path" z=x^2"," y = x $
 
   (a) 
   
-  $(0,0,0) arrow (1,0,0)$ has $x: 0 arrow 1"," y=z=0$ and $dif bold(l) = dif x bh(x)$
+  $(0,0,0) arrow (1,0,0)$ has $x: 0 arrow 1"," y=z=0$ and $dif bold(l) = dif x vu(x)$
   $
     "(i)" integral_0^1 2x dif x = 1
   $
 
-  $(1,0,0) arrow (1,1,0)$ has $y: 0 arrow 1"," x = 1"," z = 0$ and $dif bold(l) = dif y bh(y)$
+  $(1,0,0) arrow (1,1,0)$ has $y: 0 arrow 1"," x = 1"," z = 0$ and $dif bold(l) = dif y vu(y)$
   $
     "(ii)" integral_0^1 4 dif y = 4
   $
 
-  $(1,1,0) arrow (1,1,1)$ has $z: 0 arrow 1"," x = 1"," y = 1$ and $dif bold(l) = dif z bh(z)$
+  $(1,1,0) arrow (1,1,1)$ has $z: 0 arrow 1"," x = 1"," y = 1$ and $dif bold(l) = dif z vu(z)$
 
   $
     "(iii)" integral_0^1 6z^2 dif z = 2
@@ -49,17 +49,17 @@ $"(c) the parabolic path" z=x^2"," y = x $
 
   (b) 
   
-  $(0,0,0) arrow (0,0,1)$ has $z: 0 arrow 1"," x=y=0$ and $dif bold(l) = dif z bh(z)$
+  $(0,0,0) arrow (0,0,1)$ has $z: 0 arrow 1"," x=y=0$ and $dif bold(l) = dif z vu(z)$
   $
     "(i)" integral_0^1 0dif y = 0
   $
 
-  $(0,0,1) arrow (0,1,1)$ has $y: 0 arrow 1"," x = 0"," z = 1$ and $dif bold(l) = dif y bh(y)$
+  $(0,0,1) arrow (0,1,1)$ has $y: 0 arrow 1"," x = 0"," z = 1$ and $dif bold(l) = dif y vu(y)$
   $
     "(ii)" integral_0^1 2 dif y = 2
   $
 
-  $(0,1,1) arrow (1,1,1)$ has $x: 0 arrow 1"," y = 1"," z = 1$ and $dif bold(l) = dif x bh(x)$
+  $(0,1,1) arrow (1,1,1)$ has $x: 0 arrow 1"," y = 1"," z = 1$ and $dif bold(l) = dif x vu(x)$
 
   $
     "(iii)" integral_0^1 2x + 4 dif x = 5

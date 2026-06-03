@@ -12,12 +12,12 @@ $
 #solution[
   The gradient of a function $T$ is defined as 
   $
-    nabla T = pdv(T, x) bh(x) + pdv(T, y) bh(y) + pdv(T, z) bh(z) 
+    nabla T = pdv(T, x) vu(x) + pdv(T, y) vu(y) + pdv(T, z) vu(z) 
   $
   This results in
   $
-    &"(a)" 2x bh(x) + 3y^2 bh(y) + 4z^3 bh(z) \
-    &"(b)" 2x y^3 z^4 bh(x) + 3x^2 y^2 z^4 bh(y) + 4x^2 y^3 z^3 bh(z) \
-    &"(c)" e^x (sin(y) ln(z) bh(x) + cos(y)ln(z)bh(y) + sin(y)/z bh(z))
+    &"(a)" 2x vu(x) + 3y^2 vu(y) + 4z^3 vu(z) \
+    &"(b)" 2x y^3 z^4 vu(x) + 3x^2 y^2 z^4 vu(y) + 4x^2 y^3 z^3 vu(z) \
+    &"(c)" e^x (sin(y) ln(z) vu(x) + cos(y)ln(z)vu(y) + sin(y)/z vu(z))
   $
 ]

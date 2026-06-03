@@ -17,7 +17,7 @@ where $y$ is the distance (in miles) north, $x$ the distance east, of South Hadl
 #solution[
   The gradient of $h(x,y)$ is 
   $
-    nabla h = (20y - 60x - 180)bh(x) + (20x - 80y + 280)bh(y)
+    nabla h = (20y - 60x - 180)vu(x) + (20x - 80y + 280)vu(y)
   $
 
   (a) The location of the top is calculated by setting the gradient to $0$. This means 
@@ -29,5 +29,5 @@ where $y$ is the distance (in miles) north, $x$ the distance east, of South Hadl
 
   (b) Putting the values given by (a) into the height function $h(x,y)$, the height of the hill is $h(-2, 3) = 720$ft.
 
-  (c) At the point $(x,y) = (1, 1)$, the steepness and direction is obtained by putting this point into the gradient. The slope is then $sqrt(2) dot 220$ ft/mile in the direction $-bh(x) + bh(y)$, which corresponds to northwest.
+  (c) At the point $(x,y) = (1, 1)$, the steepness and direction is obtained by putting this point into the gradient. The slope is then $sqrt(2) dot 220$ ft/mile in the direction $-vu(x) + vu(y)$, which corresponds to northwest.
 ]

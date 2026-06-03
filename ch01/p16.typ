@@ -4,7 +4,7 @@
 =
 Sketch the vector function
 $
-  bold(v) = bh(r)/r^2,
+  bold(v) = vu(r)/r^2,
 $
 and compute its divergence.
 
@@ -15,5 +15,5 @@ and compute its divergence.
   $
 
   Using this, the divergence is $nabla dot bold(v) = 0$. From the sketch, clearly the divergence is not 0 at the origin. The problem arises at the point $bold(r) = 0$ where $bold(v) arrow infinity$. At all other points $bold(r) eq.not 0$, the divergence is $0$.
-  #figure(image("p16.png", width: 75%), caption: [Sketch of the function $bold(v) = bh(r)/r^2$])
+  #figure(image("p16.png", width: 75%), caption: [Sketch of the function $bold(v) = vu(r)/r^2$])
 ]

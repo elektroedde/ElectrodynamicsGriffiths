@@ -10,13 +10,13 @@ $
 #solution[
   Writing out the vectors in component form
 $
-  bold(A) = A_x bh(x) + A_y bh(y) + A_z bh(z) \
-  bold(B) = B_x bh(x) + B_y bh(y) + B_z bh(z) \
-  bold(C) = C_x bh(x) + C_y bh(y) + C_z bh(z) \
+  bold(A) = A_x vu(x) + A_y vu(y) + A_z vu(z) \
+  bold(B) = B_x vu(x) + B_y vu(y) + B_z vu(z) \
+  bold(C) = C_x vu(x) + C_y vu(y) + C_z vu(z) \
 $
 starting with lhs
 $
-  bold(B) times bold(C) = mat(delim: "|", bh(x), bh(y), bh(z);B_x, B_y, B_z;C_x, C_y, C_z) = (B_y C_z - B_z C_y)bh(x) + (B_z C_x - B_x C_z)bh(y) + (B_x C_y - B_y C_x)bh(z)
+  bold(B) times bold(C) = mat(delim: "|", vu(x), vu(y), vu(z);B_x, B_y, B_z;C_x, C_y, C_z) = (B_y C_z - B_z C_y)vu(x) + (B_z C_x - B_x C_z)vu(y) + (B_x C_y - B_y C_x)vu(z)
 $
 rewriting with a new matrix $bold(D)$ where
 $
@@ -26,21 +26,21 @@ D_z = B_x C_y - B_y C_x
 $
 gives
 $
-  bold(D) = bold(B) times bold(C) = D_x bh(x) + D_y bh(y) + D_z bh(z)
+  bold(D) = bold(B) times bold(C) = D_x vu(x) + D_y vu(y) + D_z vu(z)
 $
 Now
 $
-  bold(A) times (bold(B) times bold(C)) = bold(A) times bold(D) = mat(delim: "|", bh(x), bh(y), bh(z); A_x, A_y, A_z; D_x, D_y, D_z) = \
-  = (A_y D_z - A_z D_y)bh(x) + (A_z D_x - A_x D_z)bh(y) + (A_x D_y - A_y D_x)bh(z)
+  bold(A) times (bold(B) times bold(C)) = bold(A) times bold(D) = mat(delim: "|", vu(x), vu(y), vu(z); A_x, A_y, A_z; D_x, D_y, D_z) = \
+  = (A_y D_z - A_z D_y)vu(x) + (A_z D_x - A_x D_z)vu(y) + (A_x D_y - A_y D_x)vu(z)
 $
 
 RHS:
 $
   bold(A) dot bold(C) = A_x C_x + A_y C_y + A_z C_z = P\
   bold(A) dot bold(B) = A_x B_x + A_y B_y + A_z B_z = Q \
-  bold(B)(bold(A) dot bold(C)) = B_x P bh(x) + B_y P bh(y) + B_z P bh(z) \
-  bold(C)(bold(A) dot bold(B)) = C_x Q bh(x) + C_y Q bh(y) + C_z Q bh(z) \
-  bold(B)(bold(A) dot bold(C)) - bold(C)(bold(A) dot bold(B)) = (B_x P - C_x Q)bh(x) + (B_y P - C_y Q)bh(y) + (B_z P - C_z Q)bh(z)
+  bold(B)(bold(A) dot bold(C)) = B_x P vu(x) + B_y P vu(y) + B_z P vu(z) \
+  bold(C)(bold(A) dot bold(B)) = C_x Q vu(x) + C_y Q vu(y) + C_z Q vu(z) \
+  bold(B)(bold(A) dot bold(C)) - bold(C)(bold(A) dot bold(B)) = (B_x P - C_x Q)vu(x) + (B_y P - C_y Q)vu(y) + (B_z P - C_z Q)vu(z)
 $
 Now final step is checking if
 

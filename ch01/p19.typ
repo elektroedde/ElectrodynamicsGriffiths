@@ -2,7 +2,7 @@
 #show: problem
 
 =
-Draw a circle in the $x"-"y$ plane. At a few representative points draw the unit vector $bh(v)$ tangent to the circle, pointing in the clockwise direction. By comparing adjacent vectors, determine the signs of $pdv(v_x,y)$ and $pdv(v_y, x)$. According to The definition of the curl, what is the direction of $curl bh(v)$?
+Draw a circle in the $x"-"y$ plane. At a few representative points draw the unit vector $vu(v)$ tangent to the circle, pointing in the clockwise direction. By comparing adjacent vectors, determine the signs of $pdv(v_x,y)$ and $pdv(v_y, x)$. According to The definition of the curl, what is the direction of $curl vu(v)$?
 #solution[
 // Create a new canvas to draw on
 #set align(center)

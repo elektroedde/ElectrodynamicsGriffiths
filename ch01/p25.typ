@@ -10,7 +10,7 @@ $
 $
 (a) Check product rule (iv) for the functions
 $
-  bold(A) = x bh(x) + 2y bh(y) + 3z bh(z) ", " bold(B) = 3y bh(x) - 2x bh(y)
+  bold(A) = x vu(x) + 2y vu(y) + 3z vu(z) ", " bold(B) = 3y vu(x) - 2x vu(y)
 $
 
 (b) Do the same for product rule (ii).
@@ -20,7 +20,7 @@ $
 #solution[
 (a) Start with LHS:
 $
-  nabla dot (bold(A) times bold(B)) = nabla dot ((A_y B_z - A_z B_y)bh(x) + (A_z B_x - A_x B_z)bh(y) + (A_x B_y - A_y B_x)bh(z)) = \
+  nabla dot (bold(A) times bold(B)) = nabla dot ((A_y B_z - A_z B_y)vu(x) + (A_z B_x - A_x B_z)vu(y) + (A_x B_y - A_y B_x)vu(z)) = \
   = pdv(, x)(A_y B_z - A_z B_y) + pdv(,y)(A_z B_x - A_x B_z) + pdv(, z)(A_x B_y - A_y B_x) =\
   = pdv(, x) (6x z) + pdv(, y)(9z y) + pdv(, z)(-2x^2 - 6y^2) = 6z + 9z = ans(15z)
 $
@@ -42,7 +42,7 @@ $
 (b) LHS:
 $
   nabla(bold(A) dot bold(B)) = nabla(A_x B_x + A_y B_y + A_z B_z) = nabla(3x y  -4x y) = \
-  = pdv((-x y), x)bh(x) + pdv((-x y), y)bh(y) = ans(-y bh(x) - x bh(y))
+  = pdv((-x y), x)vu(x) + pdv((-x y), y)vu(y) = ans(-y vu(x) - x vu(y))
 $
 
 RHS:
@@ -50,38 +50,38 @@ $
   underbrace(bold(A) times (nabla times bold(B)), (1)) + underbrace(bold(B) times (nabla times bold(A)), (2)) + underbrace((bold(A) dot nabla)bold(B), (3)) + underbrace((bold(B) dot nabla) bold(A), (4))\
   \
   "(1)" bold(A) times [curl(B)] =\
-  = (x bh(x) + 2y bh(y) + 3z bh(z)) times (-5bh(z)) =  -10y bh(x) + 5x bh(y)\
+  = (x vu(x) + 2y vu(y) + 3z vu(z)) times (-5vu(z)) =  -10y vu(x) + 5x vu(y)\
   \
   "(2)" bold(B) times [curl(A)] = 0\
   \
   "(3)" (bold(A) dot nabla)bold(B) = \
   =dotnabla(A, B) = \
-  = 6 y bh(x) - 2x bh(y)\
+  = 6 y vu(x) - 2x vu(y)\
   \
   "(4)" (bold(B) dot nabla)bold(A) = \
   =dotnabla(B, A) =\
-  = 3y bh(x)  -4x bh(y) \
+  = 3y vu(x)  -4x vu(y) \
   \
   \
-  "(1)" + "(2)" + "(3)" + "(4)" = (-10y + 6y + 3y)bh(x) + (5x - 2x - 4x)bh(y) = ans(-y bh(x) - x bh(y))
+  "(1)" + "(2)" + "(3)" + "(4)" = (-10y + 6y + 3y)vu(x) + (5x - 2x - 4x)vu(y) = ans(-y vu(x) - x vu(y))
 $
 
 (c) LHS:
 $
   nabla times (bold(A) times bold(B)) = nabla times [cross(A, B)] = \
-  =nabla times [ 6x z bh(x) + 9 y z bh(y) - (2x^2 + 6y^2) bh(z) ] = nabla times bold(C) =\
+  =nabla times [ 6x z vu(x) + 9 y z vu(y) - (2x^2 + 6y^2) vu(z) ] = nabla times bold(C) =\
   = curl(C) = \
-  = (-12y-9y)bh(x) + (6x + 4x)bh(y) = ans(-21y bh(x) + 10x bh(y))
+  = (-12y-9y)vu(x) + (6x + 4x)vu(y) = ans(-21y vu(x) + 10x vu(y))
 $
 
 RHS: 
-From (b) it was calculated that $(bold(A) dot nabla)bold(B) = 6y bh(x) - 2x bh(y)$ and $(bold(B) dot nabla)bold(A) = 3y bh(x) - 4x bh(y)$. The remaining parts of (vi) RHS is
+From (b) it was calculated that $(bold(A) dot nabla)bold(B) = 6y vu(x) - 2x vu(y)$ and $(bold(B) dot nabla)bold(A) = 3y vu(x) - 4x vu(y)$. The remaining parts of (vi) RHS is
 $
-  bold(A)underbrace((nabla dot bold(B)), =0) - bold(B)underbrace((nabla dot bold(A)), =6) = -6bold(B) = -18y bh(x) +12x bh(y)
+  bold(A)underbrace((nabla dot bold(B)), =0) - bold(B)underbrace((nabla dot bold(A)), =6) = -6bold(B) = -18y vu(x) +12x vu(y)
 $
 Summing it all up according to (vi), the result is 
 $
-  (3y - 6y - 18y)bh(x) + (-4x + 2x + 12x)bh(y) = ans(-21y bh(x) + 10x bh(y))
+  (3y - 6y - 18y)vu(x) + (-4x + 2x + 12x)vu(y) = ans(-21y vu(x) + 10x vu(y))
 $
 
 ]

@@ -4,7 +4,7 @@
 =
 (a) Find the fields, and the charge and current distributions, corresponding to
 $
-  V(bold(r), t) = 0 cm bold(A)(bold(r), t) = - 1/(4 pi epsilon_0) (q t)/r^2 bh(r) 
+  V(bold(r), t) = 0 cm bold(A)(bold(r), t) = - 1/(4 pi epsilon_0) (q t)/r^2 vu(r) 
 $
 
 (b) Use the gauge function $lambda = -(1\/4 pi epsilon_0) (q t\/r)$ to transform the potentials, and comment on the result.
@@ -17,7 +17,7 @@ $
 $
 The derivative of $vb(A)$ with respect to time is 
 $
-  pdv(vb(A), t) = -1/(4 pi epsilon_0) q/r^2 bh(r) ,
+  pdv(vb(A), t) = -1/(4 pi epsilon_0) q/r^2 vu(r) ,
 $
 while the curl of $vb(A)$ in spherical coordinates is
 $
@@ -29,7 +29,7 @@ Since $A_phi.alt = A_theta = 0$, and $pdv(A_r,phi.alt) = pdv(A_r, theta) = 0$, t
 
 $
 ans(
-  vb(E) = -pdv(vb(A),t) = 1/(4pi epsilon_0) q/r^2 bh(r)\
+  vb(E) = -pdv(vb(A),t) = 1/(4pi epsilon_0) q/r^2 vu(r)\
   vb(B) = curl vb(A) = 0
 )
 $
@@ -43,19 +43,19 @@ $
 Writing out the derivative and gradient of $lambda$
 $
   pdv(lambda,t) = -1/(4 pi epsilon_0) q/r\
-  grad lambda = 1/(4pi epsilon_0)(q t)/r^2 bh(r)
+  grad lambda = 1/(4pi epsilon_0)(q t)/r^2 vu(r)
 $
 gives the transformed potentials
 $
   
 
   V'(vb(r),t) = 1/(4 pi epsilon_0) q/ r\
-  vb(A)'(vb(r),t) = - 1/(4 pi epsilon_0) (q t)/r^2 bh(r) +1/(4 pi epsilon_0) (q t)/r^2 = 0
+  vb(A)'(vb(r),t) = - 1/(4 pi epsilon_0) (q t)/r^2 vu(r) +1/(4 pi epsilon_0) (q t)/r^2 = 0
 $
 $vb(E)$ is now given by $-grad V$ (instead of by $-pdv(vb(A),t)$), while $vb(B)$ is again 0, this time directly because $curl vb(A) = curl 0 = 0$.
 $
   ans(
-    vb(E) = -grad V = -1/(4 pi epsilon_0)q/r^2 bh(r)\
+    vb(E) = -grad V = -1/(4 pi epsilon_0)q/r^2 vu(r)\
     vb(B) = curl vb(A) = 0
   )
 $

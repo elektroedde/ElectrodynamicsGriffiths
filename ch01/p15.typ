@@ -4,11 +4,11 @@
 =
 Calculate the divergence of the following vector functions:
 
-(a) $bold(v)_a = x^2 bh(x) + 3x z^2 bh(y) - 2x z bh(z)$
+(a) $bold(v)_a = x^2 vu(x) + 3x z^2 vu(y) - 2x z vu(z)$
 
-(b) $bold(v)_b = x y bh(x) + 2 y z bh(y) + 3 x z bh(z)$
+(b) $bold(v)_b = x y vu(x) + 2 y z vu(y) + 3 x z vu(z)$
 
-(c) $bold(v)_c = y^2bh(x) + (2x y + z^2) bh(y) + 2y z bh(z)$
+(c) $bold(v)_c = y^2vu(x) + (2x y + z^2) vu(y) + 2y z vu(z)$
 
 #solution[
   The divergence of a vector $bold(v)$ is defined as 
