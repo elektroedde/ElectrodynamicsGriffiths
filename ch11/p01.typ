@@ -10,4 +10,16 @@ $
 satisfy the Lorenz gauge condition.
 
 #solution[
+  The Lorenz gauge condition is
+  $
+    div vb(A) = -mu_0 epsilon_0 pdv(V,t)
+  $
+  Calculating the time derivative of $V$
+  $
+    pdv(V,t) = (p_0 cos theta)/(4 pi epsilon_0 r){-omega/c sin[omega(t - r/c)] + 1/r cos[omega(t - r/c)]}
+  $
+  Calculating the divergence of $vb(A)$
+  $
+    div vb(A) = 
+  $
 ]
