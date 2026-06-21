@@ -16,7 +16,7 @@ Find the invariant product of the 4-velocity with itself, $eta^mu eta_mu$. Is $e
   $
   The invariant product is
   $
-    (eta^0, eta) dot (-eta^0, eta) = -c^2/(1 - u^2/c^2) + u^2/(1-u^2/c^2) = -c^2 (1 - u^2/c^2)/(1 - u^2/c^2) = ans(-c^2)
+    eta^mu eta_mu = (eta^0, eta) dot (-eta^0, eta) = -c^2/(1 - u^2/c^2) + u^2/(1-u^2/c^2) = -c^2 (1 - u^2/c^2)/(1 - u^2/c^2) = ans(-c^2)
   $
   The invariant product is therefore timelike ($I < 0$).
 ]
