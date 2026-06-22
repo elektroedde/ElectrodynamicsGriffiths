@@ -2,22 +2,31 @@
 #show: problem
 
 =
- Find the potential a distance $s$ from an infinitely long straight wire
-that carries a uniform line charge $lambda$. Compute the gradient of your potential, and
-check that it yields the correct field.
+Find the potential inside and outside a uniformly charged solid sphere whose radius is $R$ and whose total charge is $q$. Use infinity as your reference point.
+Compute the gradient of $V$ in each region, and check that it yields the correct field.
+Sketch $V(vb(r))$.
 
 #solution[
-  From Gauss' Law, the field is 
+  Outside the sphere, where $r > R$:
   $
-    vb(E) = lambda/(2 pi epsilon_0 s)vu(s)
+    V_"o" = -1/(4 pi epsilon_0) integral_infinity^r q/(r^2)dd(r) = q/(4 pi epsilon_0 r )
   $
-  The potential is then
+
+  Inside the sphere, we have the result above at $r = R$ minus the integral from the sphere surface with $r < R$. The total charge is the ratio between the full sphere with radius $R$ and the sphere with radius $r$: $q = q r^3/R^3$
   $
-    V(vb(s)) = - integral_a^s lambda/(2 pi epsilon_0 s) dd(s) = lambda/(2 pi epsilon_0)[ln(s)]_s^a = \
-    = lambda/(2 pi epsilon_0) ln(a/s)
+    V_"i" = q/(4 pi epsilon_0 R) -1/(4 pi epsilon_0) integral_R^r q/r^2 dd(r) =\
+    q/(4 pi epsilon_0 R) - 1/(4 pi epsilon_0) integral_R^r (q r)/R^3 dd(r) = q/(4 pi epsilon_0)(1/R - [r^2/(2 R^3)]_R^r) = \
+    = q/(4 pi epsilon_0)(1/R - 1/( R^3)((r^2-R^2)/2))
   $
-  The gradient of this potential, the electric field, is simply
+
+  The gradient of the potential outside the sphere gives the electric field outside: 
   $
-    vb(E) = -grad V = -lambda/(2 pi epsilon_0 s) vu(s)
+    vb(E)_"o" = -grad V = q/(4 pi epsilon_0 r^2)vu(r)
   $
+  and inside gives the electric field
+  $
+    vb(E)_"i" = -grad V = (q r)/(4 pi epsilon_0 R^3) vu(r)
+  $
+
+  #figure(image("p22.png"))
 ]

@@ -13,6 +13,6 @@ def Vpot(r):
 plt.plot(r,Vpot(r), label="V(r)")
 plt.axvline(3,linestyle="--", color="r", label="R")
 plt.legend()
-plt.savefig("ch02/p21.png")
+plt.savefig("ch02/p22.png")
 
 plt.show()
